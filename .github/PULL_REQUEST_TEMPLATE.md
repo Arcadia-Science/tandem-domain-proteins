@@ -1,6 +1,4 @@
 <!--
-# TODO: If you're a maintainer of this repo, open `.github/PULL_REQUEST_TEMPLATE.md`, replace <NAME> with the repo name, and remove this line.
-
 Many thanks for contributing to Arcadia-Science/<NAME>!
 
 Please fill in the appropriate checklist below (delete whatever is not relevant).
