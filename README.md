@@ -18,8 +18,8 @@ conda activate tandem-domain-proteins
 ## Data
 
 The `tips_data/` folder contains all input files required to run the pipeline including:  
-- `select.fasta` - a FASTA file containing the 75 <i>Drosophila</i> protein sequences downloaded from the TIPS database  
-- `Q9VB3_B4KE33.fasta` - an additional FASTA file containing the protein sequences of the reference proteins Q9VB3 and B4KE33  
+- `select.fasta` - a FASTA file containing the 73 <i>Drosophila</i> protein sequences downloaded from the TIPS database  
+- `Q9VB3_B4KE33.fasta` - an additional FASTA file containing the 2 protein sequences of the reference proteins Q9VB3 and B4KE33  
 - `AF-B4KE22-F1-model_v6.pdb` - protein .pdb file for the reference protein B4KE22  
 - `AF-Q9VBV3-F1-model_v6.pdb` - protein .pdb file for the reference protein Q9VBV3  
 - `mmseq2out.xlsx` - output metadata from our TIPS database query  
