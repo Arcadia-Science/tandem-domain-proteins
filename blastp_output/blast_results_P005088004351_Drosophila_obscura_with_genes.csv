@@ -1,0 +1,5 @@
+qseqid,sseqid,pident,length,mismatch,gapopen,qstart,qend,sstart,send,evalue,bitscore,gene_name,description
+P005088004351|Drosophila_obscura,A0A0B4LHM9,59.615,104,42,0,1,104,1,104,1.18e-38,130.0,to,"Takeout, isoform B"
+P005088004351|Drosophila_obscura,Q9VBV3,59.615,104,42,0,1,104,1,104,1.18e-38,130.0,to,Protein takeout
+P005088004351|Drosophila_obscura,Q9VBV4,30.693,101,68,2,6,106,9,107,1.07e-08,52.0,Jhbp7,Juvenile hormone binding protein 7
+P005088004351|Drosophila_obscura,Q9VBV1,31.522,92,58,2,4,91,3,93,1.2e-06,46.2,Dmel\CG11854,Protein takeout

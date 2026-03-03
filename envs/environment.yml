@@ -1,0 +1,69 @@
+name: tandem-domain-proteins
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  # --- from dev.yml ---
+  - python=3.12
+  - pip=23.2.1
+  - pre-commit=3.5.0
+  - ruff=0.4.8
+  - jupyter=1.0.0
+
+  # --- science / bio tools ---
+  - beautifulsoup4=4.13.4
+  - biom-format=2.1.17
+  - biopython=1.86
+  - blast=2.17.0
+  - entrez-direct=24.0
+  - fasttree=2.2.0
+  - hmmer=3.4
+  - iqtree=3.0.1
+  - mafft=7.525
+  - ncbi-vdb=3.3.0
+  - scikit-bio=0.7.2
+  - tmalign=20220227
+
+  # --- data / numerics ---
+  - h5py=3.15.1
+  - numpy=2.4.2
+  - openpyxl=3.1.5
+  - pandas=3.0.0
+  - patsy=1.0.1
+  - scipy=1.17.0
+  - statsmodels=0.14.6
+
+  # --- plotting ---
+  - matplotlib=3.10.8
+  - seaborn=0.13.2
+  - toyplot=2.0.0
+  - toytree=3.0.11
+
+  # --- jupyter / notebook ---
+  - ipykernel=6.30.1
+  - ipywidgets=8.1.7
+  - jupyterlab=4.4.6
+  - nbconvert-core=7.16.6
+  - nbformat=5.10.4
+  - notebook=7.4.5
+
+  # --- utilities ---
+  - click=8.3.1
+  - loguru=0.7.3
+  - natsort=8.4.0
+  - pyyaml=6.0.3
+  - requests=2.32.5
+  - lark=1.2.2
+  - multipledispatch=0.6.0
+  - custom-inherit=2.4.1
+  - pytest=9.0.2
+
+  # --- pip packages ---
+  - pip:
+      - reportlab==3.6.13
+      - arcadia-pycolor==0.6.5
+      - colorspacious==1.1.2
+      - kaleido==0.2.1
+      - narwhals==2.16.0
+      - plotly==6.5.2
