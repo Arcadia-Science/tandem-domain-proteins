@@ -8,6 +8,12 @@ pLMs appear to output tandem-dimers and tandem-trimers of otherwise monomeric pr
 
 ## Installation and Setup
 
+To run the analyses in this workflow first clone the github repo using
+
+```{bash}
+git clone https://github.com/Arcadia-Science/2026-tandem-domain-proteins
+```
+
 This repository uses conda to manage software environments and installations. You can find operating system-specific instructions for installing miniconda [here](https://docs.conda.io/projects/miniconda/en/latest/). After installing conda and [mamba](https://mamba.readthedocs.io/en/latest/), run the following command to create the pipeline run environment.
 
 ```{bash}
