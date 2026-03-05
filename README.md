@@ -1,66 +1,53 @@
-# TODO: Replace with the name of the repo
+# 2026-tandem-domain-proteins
 
 [![run with conda](https://img.shields.io/badge/run%20with-conda-3EB049?labelColor=000000&logo=anaconda)](https://docs.conda.io/projects/miniconda/en/latest/)
 
-Note: Analysis repo names should be prefixed with the year (ie `2024-noveltree-analysis`)
-
 ## Purpose
 
-TODO: Briefly describe the core analyses performed in the repository and the motivation behind them.
+pLMs appear to output tandem-dimers and tandem-trimers of otherwise monomeric proteins. Here we investigate the composition of tandem-domain proteins across <i>Drosophila</i> species and show that they appear to comprise multiple different proteins. This work has implications for the widespread use of pLM-inferred protein structures.
 
 ## Installation and Setup
 
 This repository uses conda to manage software environments and installations. You can find operating system-specific instructions for installing miniconda [here](https://docs.conda.io/projects/miniconda/en/latest/). After installing conda and [mamba](https://mamba.readthedocs.io/en/latest/), run the following command to create the pipeline run environment.
 
+The environment needed to execute the python notebook containing all analyses can be set up as follows:
+
 ```{bash}
-TODO: Replace <NAME> with the name of your environment
-mamba env create -n <NAME> --file envs/dev.yml
-conda activate <NAME>
+mamba env create -n tandem-domain-proteins --file envs/environment.yml
+conda activate tandem-domain-proteins
 ```
 
-<details><summary>Developer Notes (click to expand/collapse)</summary>
-
-1. Install your pre-commit hooks:
-
-    ```{bash}
-    pre-commit install
-    ```
-
-    This installs the pre-commit hooks defined in your config (`./.pre-commit-config.yaml`).
-
-2. Export your conda environment before sharing:
-
-    As your project develops, the number of dependencies in your environment may increase. Whenever you install new dependencies (using either `pip install` or `mamba install`), you should update the environment file using the following command.
-
-    ```{bash}
-    conda env export --no-builds > envs/dev.yml
-    ```
-
-    `--no-builds` removes build specification from the exported packages to increase portability between different platforms.
-</details>
+Then you can open and run `full_HMMsplit_analyze_pipeline.ipynb`.
 
 ## Data
 
-TODO: Add details about the description of input / output data and links to Zenodo depositions, if applicable.
+The `tips_data/` folder contains all input files required to run the pipeline including:  
+- `select.fasta` - a FASTA file containing the 73 <i>Drosophila</i> protein sequences downloaded from the TIPS database  
+- `Q9VB3_B4KE33.fasta` - an additional FASTA file containing the 2 protein sequences of the reference proteins Q9VB3 and B4KE33  
+- `AF-B4KE22-F1-model_v6.pdb` - protein .pdb file for the reference protein B4KE22  
+- `AF-Q9VBV3-F1-model_v6.pdb` - protein .pdb file for the reference protein Q9VBV3  
+- `mmseq2out.xlsx` - output metadata from our TIPS database query  
+- and the folder `Structure/` which contains the .pdb protein structures from the TIPS database  
 
 ## Overview
 
 ### Description of the folder structure
 
+All other folders are output by the pipeline and include:
+- `blast_db/` - <i>D. melanogaster</i> blast database
+- `blastp_output/` - BLASTp search results from various representative proteins
+- `hmm_profiles/` - our domain profile HMM
+- `output_files/` - all output files including pairwise patristic distances, sequence divergence, and TM-scores
+- `output_plots/` - all plots outputted by pipeline
+- `pdb_domains/` - all split domain pdbs
+
 ### Methods
 
-TODO: Include a brief, step-wise overview of analyses performed.
-
-> Example:
->
-> 1.  Download scripts using `download.ipynb`.
-> 2.  Preprocess using `./preprocessing.sh -a data/`
-> 3.  Run Snakemake pipeline `snakemake --snakefile Snakefile`
-> 4.  Generate figures using `pub/make_figures.ipynb`.
+Once the environment is loaded you can run the full analysis by opening and running `full_HMMsplit_analyze_pipeline.ipynb`
 
 ### Compute Specifications
 
-TODO: Describe what compute resources were used to run the analysis. For example, you could list the operating system, number of cores, RAM, and storage space.
+This analysis was run on macOS Sequoia 15.5, 12 cores, 24Gb RAM.
 
 ## Contributing
 

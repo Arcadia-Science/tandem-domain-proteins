@@ -36,7 +36,6 @@ dependencies:
 
   # --- plotting ---
   - matplotlib=3.10.8
-  - seaborn=0.13.2
   - toyplot=2.0.0
   - toytree=3.0.11
 
@@ -62,7 +61,6 @@ dependencies:
   # --- pip packages ---
   - pip:
       - reportlab==3.6.13
-      - arcadia-pycolor==0.6.5
       - colorspacious==1.1.2
       - kaleido==0.2.1
       - narwhals==2.16.0

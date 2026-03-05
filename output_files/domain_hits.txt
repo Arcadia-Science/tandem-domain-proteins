@@ -94,5 +94,5 @@ P005088004351|Drosophila_obscura       -            140 ProteinDomain        -  
 # Target file:     output_files/select_1l_reheader.fasta
 # Option settings: hmmsearch --domtblout output_files/domain_hits.txt -E 0.001 --domE 0.001 output_files/protein_domain.hmm output_files/select_1l_reheader.fasta 
 # Current dir:     /Users/rdk_arcadia/github/2026-tandem-domain-proteins
-# Date:            Tue Mar  3 16:22:38 2026
+# Date:            Wed Mar  4 18:42:14 2026
 # [ok]
