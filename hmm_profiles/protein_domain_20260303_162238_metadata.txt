@@ -1,8 +1,0 @@
-HMM Profile Metadata
-==================================================
-Created:     2026-03-03 16:22:38
-HMM file:    hmm_profiles/protein_domain_20260303_162238.hmm
-Description: Profile HMM for protein domain extraction
-
-To use this profile:
-  hmmsearch hmm_profiles/protein_domain_20260303_162238.hmm your_sequences.fasta
