@@ -32,7 +32,6 @@ The `tips_data/` folder contains all input files required to run the pipeline in
 All other folders are output by the pipeline and include:
 - `blast_db/` - <i>D. melanogaster</i> blast database
 - `blastp_output/` - BLASTp search results from various representative proteins
-- `hmm_profiles/` - our domain profile HMM
 - `output_files/` - all output files including pairwise patristic distances, sequence divergence, and TM-scores
 - `output_plots/` - all plots outputted by pipeline
 - `pdb_domains/` - all split domain pdbs
@@ -43,7 +42,7 @@ Once the environment is loaded you can run the full analysis by opening and runn
 
 ### Compute Specifications
 
-This analysis was run on macOS Sequoia 15.5, 12 cores, 24Gb RAM.
+This analysis was run on macOS Sequoia 15.5, with 12 cores and 24Gb RAM.
 
 ## Contributing
 
