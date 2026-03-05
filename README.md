@@ -21,6 +21,8 @@ mamba env create -n tandem-domain-proteins --file envs/environment.yml
 conda activate tandem-domain-proteins
 ```
 
+Once the environment is loaded you can run the full analysis by opening and running `full_HMMsplit_analyze_pipeline.ipynb`
+
 ## Data
 
 The `tips_data/` folder contains all input files required to run the pipeline including:  
@@ -41,10 +43,6 @@ All other folders are output by the pipeline and include:
 - `output_files/` - all output files including pairwise patristic distances, sequence divergence, and TM-scores
 - `output_plots/` - all plots outputted by pipeline
 - `pdb_domains/` - all split domain pdbs
-
-### Methods
-
-Once the environment is loaded you can run the full analysis by opening and running `full_HMMsplit_analyze_pipeline.ipynb`
 
 ### Compute Specifications
 
