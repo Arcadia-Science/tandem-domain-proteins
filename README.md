@@ -10,14 +10,10 @@ pLMs appear to output tandem-dimers and tandem-trimers of otherwise monomeric pr
 
 This repository uses conda to manage software environments and installations. You can find operating system-specific instructions for installing miniconda [here](https://docs.conda.io/projects/miniconda/en/latest/). After installing conda and [mamba](https://mamba.readthedocs.io/en/latest/), run the following command to create the pipeline run environment.
 
-The environment needed to execute the python notebook containing all analyses can be set up as follows:
-
 ```{bash}
 mamba env create -n tandem-domain-proteins --file envs/environment.yml
 conda activate tandem-domain-proteins
 ```
-
-Then you can open and run `full_HMMsplit_analyze_pipeline.ipynb`.
 
 ## Data
 
