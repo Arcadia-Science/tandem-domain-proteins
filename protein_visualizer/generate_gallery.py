@@ -4,9 +4,7 @@ import os
 import re
 import urllib.request
 
-VIEWER_URL = (
-    "https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"
-)
+VIEWER_URL = "https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"
 FONT_URL = (
     "https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,"
     "400;0,700;1,400;1,700&display=swap"
@@ -30,7 +28,7 @@ def b64(path):
 
 def hex_to_linear(h):
     h = h.lstrip("#")
-    srgb = [int(h[i: i + 2], 16) / 255.0 for i in (0, 2, 4)]
+    srgb = [int(h[i : i + 2], 16) / 255.0 for i in (0, 2, 4)]
     return [c / 12.92 if c <= 0.04045 else ((c + 0.055) / 1.055) ** 2.4 for c in srgb]
 
 
@@ -92,8 +90,7 @@ def build():
         )
 
         menu_html += (
-            f'            <div class="menu-item" onclick="selectItem(event,{i})">'
-            f"{pill}</div>\n"
+            f'            <div class="menu-item" onclick="selectItem(event,{i})">' f"{pill}</div>\n"
         )
 
         r, g, b = hex_to_linear(e["model_color"])
