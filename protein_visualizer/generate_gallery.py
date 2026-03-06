@@ -114,49 +114,49 @@ def build():
 <style>
 *,*::before,*::after{{margin:0;padding:0;box-sizing:border-box}}
 body,html{{width:100%;height:100%;overflow:hidden;font-family:"{font_family}","Helvetica Neue",
-Helvetica,Arial,sans-serif;background:{first_bg};transition:background .4s ease-in-out}} 
+Helvetica,Arial,sans-serif;background:{first_bg};transition:background .4s ease-in-out}}
 .gallery-wrapper{{position:relative;width:100vw;height:100vh}} .viewer-layer{{
-position:absolute;inset:0;width:100%;height:100%;opacity:0;pointer-events:none;transition:opacity 
+position:absolute;inset:0;width:100%;height:100%;opacity:0;pointer-events:none;transition:opacity
 .4s ease-in-out;z-index:1;outline:none}} .viewer-layer.active{{
 opacity:1;pointer-events:auto;z-index:2}} .nav-wrapper{{
 position:fixed;top:16px;left:16px;z-index:100;font-size:clamp(11px,2cqi,
 20px);display:flex;align-items:center;filter:drop-shadow(0 4px 12px rgba(0,0,0,
-.10));cursor:pointer;transition:filter .2s}} .nav-wrapper:hover{{filter:drop-shadow(0 8px 16px 
-rgba(0,0,0,.14))}} .nav-pill{{background:#fff;border-radius:999px;padding:.75em 
+.10));cursor:pointer;transition:filter .2s}} .nav-wrapper:hover{{filter:drop-shadow(0 8px 16px
+rgba(0,0,0,.14))}} .nav-pill{{background:#fff;border-radius:999px;padding:.75em
 1.3em;display:flex;align-items:center;gap:.6em;color:#333;font-weight:400;position:relative;z
 -index:10}} .nav-pill strong{{font-weight:700}} .dropdown-arrow{{
-width:1em;height:1em;opacity:.5;transition:transform .3s cubic-bezier(.2,.8,.2,1);flex-shrink:0}} 
+width:1em;height:1em;opacity:.5;transition:transform .3s cubic-bezier(.2,.8,.2,1);flex-shrink:0}}
 .nav-wrapper.is-open .dropdown-arrow{{transform:rotate(180deg)}} .dropdown-menu{{
 position:absolute;top:130%;left:0;min-width:100%;width:max-content;background:#fff;border-radius
-:.8em;padding:.4em;opacity:0;transform:translateY(-10px);pointer-events:none;transition:all .2s 
-cubic-bezier(.2,.8,.2,1);display:flex;flex-direction:column;gap:.1em;z-index:200;box-shadow:0 
+:.8em;padding:.4em;opacity:0;transform:translateY(-10px);pointer-events:none;transition:all .2s
+cubic-bezier(.2,.8,.2,1);display:flex;flex-direction:column;gap:.1em;z-index:200;box-shadow:0
 10px 25px rgba(0,0,0,.12)}} .nav-wrapper.is-open .dropdown-menu{{opacity:1;transform:translateY(
-0);pointer-events:auto}} .menu-item{{padding:.6em 
-1.1em;border-radius:.5em;cursor:pointer;font-size:.9em;color:#444;transition:background 
+0);pointer-events:auto}} .menu-item{{padding:.6em
+1.1em;border-radius:.5em;cursor:pointer;font-size:.9em;color:#444;transition:background
 .1s;white-space:nowrap}} .menu-item strong{{font-weight:700}} .menu-item:hover{{
 background:#f5f5f5;color:#000}} .pagination-wrapper{{
 position:fixed;bottom:16px;right:16px;z-index:100;font-size:clamp(12px,2cqi,
 24px);filter:drop-shadow(0 4px 12px rgba(0,0,0,.10))}} .pagination-pill{{
-background:#fff;border-radius:999px;padding:.5em .8em;display:flex;align-items:center;gap:.8em}} 
+background:#fff;border-radius:999px;padding:.5em .8em;display:flex;align-items:center;gap:.8em}}
 .nav-btn{{cursor:pointer;display:flex;align-items:center;justify-content:center;border-radius:50
-%;width:2em;height:2em;transition:background .15s,color 
-.15s;color:#444;user-select:none;outline:none;-webkit-tap-highlight-color:transparent}} 
-.nav-btn:hover{{background:#f0f0f0;color:#000}} .nav-btn svg{{width:1.5em;height:1.5em}} 
+%;width:2em;height:2em;transition:background .15s,color
+.15s;color:#444;user-select:none;outline:none;-webkit-tap-highlight-color:transparent}}
+.nav-btn:hover{{background:#f0f0f0;color:#000}} .nav-btn svg{{width:1.5em;height:1.5em}}
 .pagination-wrapper::before{{content:'';position:absolute;top:50%;left:50%;transform:translate(
--50%,-50%);width:calc(100% - 4px);height:calc(100% - 
-4px);border-radius:999px;z-index:-1;box-shadow:0 0 0 0 rgba(0,0,0,.1);animation:pulse 3s 
-infinite}} @keyframes pulse{{0%{{box-shadow:0 0 0 0 rgba(0,0,0,.1)}}70%{{box-shadow:0 0 0 1em 
-rgba(0,0,0,0)}}100%{{box-shadow:0 0 0 0 rgba(0,0,0,0)}}}} </style> </head> <body> <div 
-class="gallery-wrapper"> <div class="nav-wrapper" id="navWrapper" onclick="toggleMenu(event)"> 
-<div class="nav-pill"> <span id="currentLabel">{first_pill}</span> <svg class="dropdown-arrow" 
-viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" 
-stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg> </div> <div 
-class="dropdown-menu"> {menu_html}        </div> </div> <div class="pagination-wrapper"> <div 
-class="pagination-pill"> <div class="nav-btn" onclick="prevModel(event)"><svg viewBox="0 0 24 24" 
-fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" 
-stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg></div> <div class="nav-btn" 
-onclick="nextModel(event)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" 
-stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 
+-50%,-50%);width:calc(100% - 4px);height:calc(100% -
+4px);border-radius:999px;z-index:-1;box-shadow:0 0 0 0 rgba(0,0,0,.1);animation:pulse 3s
+infinite}} @keyframes pulse{{0%{{box-shadow:0 0 0 0 rgba(0,0,0,.1)}}70%{{box-shadow:0 0 0 1em
+rgba(0,0,0,0)}}100%{{box-shadow:0 0 0 0 rgba(0,0,0,0)}}}} </style> </head> <body> <div
+class="gallery-wrapper"> <div class="nav-wrapper" id="navWrapper" onclick="toggleMenu(event)">
+<div class="nav-pill"> <span id="currentLabel">{first_pill}</span> <svg class="dropdown-arrow"
+viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"
+stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg> </div> <div
+class="dropdown-menu"> {menu_html}        </div> </div> <div class="pagination-wrapper"> <div
+class="pagination-pill"> <div class="nav-btn" onclick="prevModel(event)"><svg viewBox="0 0 24 24"
+fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg></div> <div class="nav-btn"
+onclick="nextModel(event)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9
 6"/></svg></div> </div> </div> {viewers_html}</div>
 <script type="module">
     const F=[
@@ -169,7 +169,7 @@ stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline poin
     d=el.dataset.glb; if(d){{ await new Promise(r=>setTimeout(r,10)); const res=await fetch(
     'data:model/gltf-binary;base64,'+d); const blob=await res.blob(); el.setAttribute('src',
     URL.createObjectURL(blob)); el.removeAttribute('data-glb'); }} if(F[
-    i].model_color)el.addEventListener('load',()=>{{ for(const m of 
+    i].model_color)el.addEventListener('load',()=>{{ for(const m of
     el.model.materials)m.pbrMetallicRoughness.setBaseColorFactor(F[i].model_color); }},
     {{once:true}}); }}
 
