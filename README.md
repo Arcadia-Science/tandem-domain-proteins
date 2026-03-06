@@ -44,6 +44,7 @@ All other folders are output by the pipeline and include:
 - `output_files/` - all output files including pairwise patristic distances, sequence divergence, and TM-scores
 - `output_plots/` - all plots outputted by pipeline
 - `pdb_domains/` - all split domain pdbs
+- `protein_visualizer/` - contains the models and code to generate the protein visualizer embedded in the pub
 
 ### Compute Specifications
 
