@@ -38,6 +38,7 @@ The `tips_data/` folder contains all input files required to run the pipeline in
 ### Description of the folder structure
 
 All other folders are output by the pipeline and include:
+- `repeat_detection_results/` - results from coarse binning of monomers for training profile HMM
 - `blast_db/` - <i>D. melanogaster</i> blast database
 - `blastp_output/` - BLASTp search results from various representative proteins
 - `output_files/` - all output files including pairwise patristic distances, sequence divergence, and TM-scores
