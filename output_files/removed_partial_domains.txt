@@ -1,0 +1,6 @@
+# Sequences removed for being < mean - 2*SD in length
+# Length cutoff: 201.1 aa
+# Total removed: 2
+#
+>P005088004351|Drosophila_obscura|part1_of1 length=111 single_domain pos:1-111 E-value:1.80e-42 score:137.7
+>P005102009207|Drosophila_virilis|part1_of1 length=126 single_domain pos:1-126 E-value:9.90e-62 score:200.8

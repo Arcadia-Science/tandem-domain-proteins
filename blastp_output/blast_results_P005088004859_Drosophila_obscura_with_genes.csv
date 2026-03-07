@@ -1,0 +1,28 @@
+qseqid,sseqid,pident,length,mismatch,gapopen,qstart,qend,sstart,send,evalue,bitscore,gene_name,description
+P005088004859|Drosophila_obscura,Q9VBV1,64.49,245,84,2,11,254,8,250,1.46e-118,338.0,Dmel\CG11854,Protein takeout
+P005088004859|Drosophila_obscura,Q9VBV4,34.677,248,155,4,11,253,3,248,4.23e-47,157.0,Jhbp7,Juvenile hormone binding protein 7
+P005088004859|Drosophila_obscura,A0A0B4LHM9,29.555,247,170,2,7,252,2,245,6.62e-38,133.0,to,"Takeout, isoform B"
+P005088004859|Drosophila_obscura,Q9VBV3,29.555,247,170,2,7,252,2,245,6.62e-38,133.0,to,Protein takeout
+P005088004859|Drosophila_obscura,Q9VC67,29.787,235,151,7,25,253,25,251,2.25e-33,121.0,Jhbp12,Juvenile hormone binding protein 12
+P005088004859|Drosophila_obscura,Q9VDF6,27.313,227,161,4,28,252,19,243,1.01e-32,119.0,Jhbp15,Juvenile hormone binding protein 15
+P005088004859|Drosophila_obscura,O76879,27.49,251,175,6,7,252,9,257,1.25e-32,119.0,dyw,Circadian clock-controlled protein daywake
+P005088004859|Drosophila_obscura,Q9VDF8,24.59,244,181,3,12,253,7,249,6.72e-22,91.3,Dmel\CG31189,Protein takeout
+P005088004859|Drosophila_obscura,Q59E08,24.59,244,177,4,8,247,8,248,2.0500000000000003e-21,90.5,Jhbp6,"Juvenile hormone binding protein 6, isoform B"
+P005088004859|Drosophila_obscura,Q9VEZ7,24.096,249,167,7,16,247,21,264,8.38e-21,88.6,Jhbp4,Juvenile hormone binding protein 4
+P005088004859|Drosophila_obscura,Q9VB79,24.409,254,178,6,5,247,14,264,1.76e-20,88.2,Dmel\CG14259,IP09473p
+P005088004859|Drosophila_obscura,M9PIL1,24.59,244,176,5,8,247,8,247,2.5e-20,87.4,Jhbp6,"Juvenile hormone binding protein 6, isoform C"
+P005088004859|Drosophila_obscura,Q9VEZ6,23.605,233,167,6,25,252,31,257,2.26e-19,84.7,Jhbp5,"Juvenile hormone binding protein 5, isoform A"
+P005088004859|Drosophila_obscura,Q8MSJ6,26.357,258,164,10,8,253,5,248,2.24e-18,81.6,CG7096,GH08336p
+P005088004859|Drosophila_obscura,A0A126GUV0,23.207,237,167,7,25,252,31,261,1.41e-17,79.7,Jhbp5,"Juvenile hormone binding protein 5, isoform C"
+P005088004859|Drosophila_obscura,Q9VB80,25.806,186,135,2,67,251,70,253,1.2e-15,74.3,Dmel\CG14258,Uncharacterized protein
+P005088004859|Drosophila_obscura,Q9VN72,22.49,249,175,9,11,250,5,244,1.65e-15,73.9,Jhbp2,FI17305p1
+P005088004859|Drosophila_obscura,Q9VB77,23.246,228,166,5,26,247,24,248,3.96e-15,73.2,Jhbp11,IP09938p
+P005088004859|Drosophila_obscura,Q9VDF7,22.65,234,175,5,24,253,18,249,7.96e-15,72.0,Dmel\CG7079,IP10158p
+P005088004859|Drosophila_obscura,Q9VN71,25.514,243,170,5,13,252,10,244,1.48e-14,71.2,Jhbp3,"Juvenile hormone binding protein 3, isoform A"
+P005088004859|Drosophila_obscura,A0A0B4KF22,22.047,254,175,10,11,250,5,249,1.91e-13,68.2,Jhbp2,"Juvenile hormone binding protein 2, isoform E"
+P005088004859|Drosophila_obscura,Q9Y143,24.715,263,168,9,8,251,7,258,4.06e-13,67.4,Jhbp14,BcDNA.GH05536
+P005088004859|Drosophila_obscura,Q9VNT0,27.273,121,88,0,127,247,1,121,4.03e-12,62.4,Jhbp6,LP08817p
+P005088004859|Drosophila_obscura,D3DMT7,23.649,148,107,4,107,250,33,178,7.98e-12,62.4,Jhbp2,"Juvenile hormone binding protein 2, isoform C"
+P005088004859|Drosophila_obscura,Q9VK12,23.2,250,179,8,8,252,7,248,1.76e-10,59.7,Jhbp13,GH20621p
+P005088004859|Drosophila_obscura,Q9VN73,19.368,253,176,8,16,253,6,245,2.06e-08,53.5,Jhbp1,Juvenile hormone binding protein 1
+P005088004859|Drosophila_obscura,Q9VD91,23.504,234,158,10,26,251,37,257,2.53e-07,50.4,Jhbp16,Juvenile hormone binding protein 16

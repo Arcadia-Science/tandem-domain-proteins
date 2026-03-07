@@ -1,0 +1,27 @@
+qseqid,sseqid,pident,length,mismatch,gapopen,qstart,qend,sstart,send,evalue,bitscore,gene_name,description
+P005083008909|Drosophila_melanogaster,Q9VBV4,100.0,250,0,0,1,250,1,250,0.0,519.0,Jhbp7,Juvenile hormone binding protein 7
+P005083008909|Drosophila_melanogaster,Q9VBV1,34.4,250,160,3,2,248,1,249,2.9199999999999996e-45,152.0,Dmel\CG11854,Protein takeout
+P005083008909|Drosophila_melanogaster,A0A0B4LHM9,30.645,248,170,2,3,249,1,247,5.4299999999999997e-39,135.0,to,"Takeout, isoform B"
+P005083008909|Drosophila_melanogaster,Q9VBV3,30.645,248,170,2,3,249,1,247,5.4299999999999997e-39,135.0,to,Protein takeout
+P005083008909|Drosophila_melanogaster,Q9VEZ6,29.87,231,156,3,19,247,31,257,1.56e-35,127.0,Jhbp5,"Juvenile hormone binding protein 5, isoform A"
+P005083008909|Drosophila_melanogaster,Q8MSJ6,28.947,228,158,4,23,248,23,248,4.47e-34,123.0,CG7096,GH08336p
+P005083008909|Drosophila_melanogaster,A0A126GUV0,29.362,235,156,4,19,247,31,261,1.1e-33,122.0,Jhbp5,"Juvenile hormone binding protein 5, isoform C"
+P005083008909|Drosophila_melanogaster,Q9VDF7,29.614,233,151,4,23,248,23,249,2.72e-32,118.0,Dmel\CG7079,IP10158p
+P005083008909|Drosophila_melanogaster,Q9VDF6,28.745,247,161,7,9,247,4,243,1.74e-31,116.0,Jhbp15,Juvenile hormone binding protein 15
+P005083008909|Drosophila_melanogaster,Q9VDF8,24.681,235,174,3,15,248,17,249,1.81e-26,103.0,Dmel\CG31189,Protein takeout
+P005083008909|Drosophila_melanogaster,Q9VC67,27.966,236,161,6,16,248,22,251,2.1e-26,103.0,Jhbp12,Juvenile hormone binding protein 12
+P005083008909|Drosophila_melanogaster,O76879,26.587,252,178,6,1,247,8,257,3.96e-26,102.0,dyw,Circadian clock-controlled protein daywake
+P005083008909|Drosophila_melanogaster,Q9VEZ7,31.088,193,127,4,51,241,75,263,4e-24,97.4,Jhbp4,Juvenile hormone binding protein 4
+P005083008909|Drosophila_melanogaster,Q9VN71,28.287,251,168,5,2,247,1,244,1.75e-23,95.1,Jhbp3,"Juvenile hormone binding protein 3, isoform A"
+P005083008909|Drosophila_melanogaster,Q59E08,26.471,238,163,6,9,238,11,244,1.07e-20,88.2,Jhbp6,"Juvenile hormone binding protein 6, isoform B"
+P005083008909|Drosophila_melanogaster,M9PIL1,26.16,237,164,5,9,238,11,243,1.15e-20,88.2,Jhbp6,"Juvenile hormone binding protein 6, isoform C"
+P005083008909|Drosophila_melanogaster,Q9VN72,21.622,222,168,4,25,245,28,244,1.88e-17,79.0,Jhbp2,FI17305p1
+P005083008909|Drosophila_melanogaster,Q9VB79,25.911,247,170,7,1,238,18,260,7.25e-17,78.2,Dmel\CG14259,IP09473p
+P005083008909|Drosophila_melanogaster,Q9VN73,23.932,234,162,7,23,249,22,246,2.09e-16,76.3,Jhbp1,Juvenile hormone binding protein 1
+P005083008909|Drosophila_melanogaster,A0A0B4KF22,21.145,227,168,5,25,245,28,249,3.38e-15,72.8,Jhbp2,"Juvenile hormone binding protein 2, isoform E"
+P005083008909|Drosophila_melanogaster,D3DMT7,22.222,162,122,2,85,245,20,178,4.91e-14,68.6,Jhbp2,"Juvenile hormone binding protein 2, isoform C"
+P005083008909|Drosophila_melanogaster,Q9VB77,24.066,241,163,8,8,242,19,245,7.08e-13,66.6,Jhbp11,IP09938p
+P005083008909|Drosophila_melanogaster,Q9VNT0,30.435,115,80,0,124,238,3,117,2.57e-12,62.8,Jhbp6,LP08817p
+P005083008909|Drosophila_melanogaster,Q4ABK2,26.23,122,90,0,126,247,106,227,8.01e-11,60.8,Jhbp10,Juvenile hormone binding protein 10
+P005083008909|Drosophila_melanogaster,Q9VB80,23.482,247,172,7,6,243,9,247,1.25e-08,54.3,Dmel\CG14258,Uncharacterized protein
+P005083008909|Drosophila_melanogaster,Q9V3H6,28.111,217,128,7,9,214,9,208,9.08e-07,48.9,BG:DS00941.15,Uncharacterized protein

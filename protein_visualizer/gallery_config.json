@@ -1,0 +1,30 @@
+[
+    {
+        "glb": "models/Single-domain.glb",
+        "label": "Single domain",
+        "subtitle": "in <i>Drosophila melanogaster</i>",
+        "bg_color": "#fbf7f2",
+        "model_color": "#6666b5"
+    },
+    {
+        "glb": "models/Tandem-dimer.glb",
+        "label": "Tandem dimer",
+        "subtitle": "in <i>Drosophila takahashii</i>",
+        "bg_color": "#fbf7f2",
+        "model_color": "#6666b5"
+    },
+    {
+        "glb": "models/Tandem-trimer.glb",
+        "label": "Tandem trimer",
+        "subtitle": "in <i>Drosophila kikkawai</i>",
+        "bg_color": "#fbf7f2",
+        "model_color": "#6666b5"
+    },
+    {
+        "glb": "models/Partial-domain.glb",
+        "label": "Partial domain",
+        "subtitle": "in <i>Drosophila virilis</i>",
+        "bg_color": "#fbf7f2",
+        "model_color": "#6666b5"
+    }
+]

@@ -8,12 +8,20 @@ pLMs appear to output tandem-dimers and tandem-trimers of otherwise monomeric pr
 
 ## Installation and Setup
 
+To run the analyses in this workflow first clone the github repo using
+
+```{bash}
+git clone https://github.com/Arcadia-Science/2026-tandem-domain-proteins
+```
+
 This repository uses conda to manage software environments and installations. You can find operating system-specific instructions for installing miniconda [here](https://docs.conda.io/projects/miniconda/en/latest/). After installing conda and [mamba](https://mamba.readthedocs.io/en/latest/), run the following command to create the pipeline run environment.
 
 ```{bash}
 mamba env create -n tandem-domain-proteins --file envs/environment.yml
 conda activate tandem-domain-proteins
 ```
+
+Once the environment is loaded you can run the full analysis by opening and running `full_HMMsplit_analyze_pipeline.ipynb`
 
 ## Data
 
@@ -30,20 +38,17 @@ The `tips_data/` folder contains all input files required to run the pipeline in
 ### Description of the folder structure
 
 All other folders are output by the pipeline and include:
+- `repeat_detection_results/` - results from coarse binning of monomers for training profile HMM
 - `blast_db/` - <i>D. melanogaster</i> blast database
 - `blastp_output/` - BLASTp search results from various representative proteins
-- `hmm_profiles/` - our domain profile HMM
 - `output_files/` - all output files including pairwise patristic distances, sequence divergence, and TM-scores
 - `output_plots/` - all plots outputted by pipeline
 - `pdb_domains/` - all split domain pdbs
-
-### Methods
-
-Once the environment is loaded you can run the full analysis by opening and running `full_HMMsplit_analyze_pipeline.ipynb`
+- `protein_visualizer/` - contains the models and code to generate the protein visualizer embedded in the pub
 
 ### Compute Specifications
 
-This analysis was run on macOS Sequoia 15.5, 12 cores, 24Gb RAM.
+This analysis was run on macOS Sequoia 15.5, with 12 cores and 24Gb RAM.
 
 ## Contributing
 

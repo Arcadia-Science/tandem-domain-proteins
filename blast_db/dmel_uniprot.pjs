@@ -1,0 +1,24 @@
+{
+  "version": "1.2",
+  "dbname": "dmel_uniprot",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "D. melanogaster UniProt Proteins (UP000000803)",
+  "number-of-letters": 14979470,
+  "number-of-sequences": 22019,
+  "last-updated": "2026-03-06T09:38:00",
+  "number-of-volumes": 1,
+  "bytes-total": 20100955,
+  "bytes-to-cache": 15177778,
+  "files": [
+    "dmel_uniprot.pdb",
+    "dmel_uniprot.phr",
+    "dmel_uniprot.pin",
+    "dmel_uniprot.pog",
+    "dmel_uniprot.pos",
+    "dmel_uniprot.pot",
+    "dmel_uniprot.psq",
+    "dmel_uniprot.ptf",
+    "dmel_uniprot.pto"
+  ]
+}
