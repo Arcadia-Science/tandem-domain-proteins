@@ -6,7 +6,7 @@ This repo contains the data and code associated with the pub: [Assembly and anno
 
 ## Purpose
 
-Protein structural inference algorithms appear to output tandem-dimers and tandem-trimers of otherwise monomeric proteins. Here we investigate the composition of tandem-domain proteins across <i>Drosophila</i> species and show that they appear to comprise multiple different proteins. This work has implications for the widespread use of inferred protein structures.
+Protein structure prediction algorithms appear to output tandem-dimers and tandem-trimers of otherwise monomeric proteins. Here we investigate the composition of tandem-domain proteins across <i>Drosophila</i> species and show that they appear to comprise multiple different proteins. This work has implications for the widespread use of inferred protein structures.
 
 ## Installation and Setup
 
