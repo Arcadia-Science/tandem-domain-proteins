@@ -4,7 +4,7 @@
 
 ## Purpose
 
-pLMs appear to output tandem-dimers and tandem-trimers of otherwise monomeric proteins. Here we investigate the composition of tandem-domain proteins across <i>Drosophila</i> species and show that they appear to comprise multiple different proteins. This work has implications for the widespread use of pLM-inferred protein structures.
+Protein structural inference algorithms appear to output tandem-dimers and tandem-trimers of otherwise monomeric proteins. Here we investigate the composition of tandem-domain proteins across <i>Drosophila</i> species and show that they appear to comprise multiple different proteins. This work has implications for the widespread use of inferred protein structures.
 
 ## Installation and Setup
 
