@@ -2,6 +2,8 @@
 
 [![run with conda](https://img.shields.io/badge/run%20with-conda-3EB049?labelColor=000000&logo=anaconda)](https://docs.conda.io/projects/miniconda/en/latest/)
 
+This repo contains the associated code for the pub: [Assembly and annotation artifacts can lead to problematic protein structural inferences](https://doi.org/10.57844/arcadia-2u60-81sg).
+
 ## Purpose
 
 Protein structural inference algorithms appear to output tandem-dimers and tandem-trimers of otherwise monomeric proteins. Here we investigate the composition of tandem-domain proteins across <i>Drosophila</i> species and show that they appear to comprise multiple different proteins. This work has implications for the widespread use of inferred protein structures.
