@@ -1,7 +1,5 @@
 # Assembly and annotation artifacts can lead to problematic protein structural inferences
 
-[![run with conda](https://img.shields.io/badge/run%20with-conda-3EB049?labelColor=000000&logo=anaconda)](https://docs.conda.io/projects/miniconda/en/latest/)
-
 This repo contains the data and code associated with the pub: [Assembly and annotation artifacts can lead to problematic protein structural inferences](https://doi.org/10.57844/arcadia-2u60-81sg).
 
 ## Purpose
