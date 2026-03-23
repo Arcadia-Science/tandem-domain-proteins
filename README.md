@@ -50,7 +50,7 @@ All other folders are output by the pipeline and include:
 
 ### Compute Specifications
 
-This analysis was run on macOS Sequoia 15.5, with 12 cores and 24Gb RAM.
+This analysis was run on Apple Silicon (M4 Pro) using macOS Sequoia 15.5, with 12 cores and 24Gb RAM.
 
 ## Contributing
 
